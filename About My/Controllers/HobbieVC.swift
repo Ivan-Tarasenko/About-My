@@ -1,5 +1,5 @@
 //
-//  Hobbie.swift
+//  HobbieVC.swift
 //  My summary
 //
 //  Created by Иван Тарасенко on 19.05.2021.
@@ -7,8 +7,9 @@
 
 import UIKit
 
-class Hobbie: UIViewController {
+class HobbieVC: UIViewController {
     
+    @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var imageOne: UIImageView!
     @IBOutlet weak var imageTwo: UIImageView!
     @IBOutlet weak var imageThee: UIImageView!
@@ -18,16 +19,18 @@ class Hobbie: UIViewController {
     private let colorOne = UIColor(red: 133/255,
                                    green: 235/255,
                                    blue: 239/255,
-                                   alpha: 1)
+                                   alpha: 1
+    )
     private let colorTwo = UIColor(red: 227/255,
                                    green: 128/255,
                                    blue: 128/255,
-                                   alpha: 1)
+                                   alpha: 1
+    )
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.withGradientBackground(color1: colorOne,
+        contentView.withGradientBackground(color1: colorOne,
                                     color2: colorTwo,
                                     startPoint: startPointGradient,
                                     endPoint: endPointGradient,

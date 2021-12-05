@@ -30,11 +30,3 @@ extension UIView {
         layer.insertSublayer(layerGradient, at: 0)
     }
 }
-
-
-extension UIViewController {
-    func setingCornerRadius(radius: CGFloat, image: UIImageView)  {
-        return image.layer.cornerRadius = radius
-        
-    }
-}

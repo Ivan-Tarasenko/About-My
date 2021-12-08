@@ -22,12 +22,11 @@ class MyVC: UIViewController {
                                    green: 215/255,
                                    blue: 119/255,
                                    alpha: 1)
-    
    
     override func viewDidLoad() {
         super.viewDidLoad()
-  
-        contentView.withGradientBackground(color1: colorOne,
+
+        contentView.gradientBackground(color1: colorOne,
                                     color2: colorTwo,
                                     startPoint: startPointGradient,
                                     endPoint: endPointGradient,
@@ -37,6 +36,7 @@ class MyVC: UIViewController {
 
         
     }
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.tabBarController?.navigationItem.title = tabBarItem.title

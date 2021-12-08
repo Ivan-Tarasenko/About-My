@@ -29,7 +29,7 @@ class FamilyVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        contentView.withGradientBackground(color1: colorOne,
+        contentView.gradientBackground(color1: colorOne,
                                     color2: colorTwo,
                                     startPoint: startPointGradient,
                                     endPoint: endPointGradient,

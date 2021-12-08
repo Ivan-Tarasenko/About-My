@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "I work as a drilling rig driver. I have been working in this profession for a long time, more than fifteen years. It's an interesting job, but I don't want to work as a driller anymore. Now I really like to develop mobile apps for iOS. I like it, because here you need to constantly solve new problems and create something beautiful and interesting."; ObjectID = "0lz-yS-8wv"; */
+"0lz-yS-8wv.text" = "Я работаю водителем буровой установки. Я работаю в этой профессии уже давно, более пятнадцати лет. Это интересная работа, но я больше не хочу работать бурильщиком. Сейчас мне очень нравится разрабатывать мобильные приложения для iOS. Мне это нравится, потому что здесь нужно постоянно решать новые задачи и создавать что-то красивое и интересное.";
+
+/* Class = "UITabBarItem"; title = "I Am"; ObjectID = "4Tm-y4-IIY"; */
+"4Tm-y4-IIY.title" = "Это Я";
+
+/* Class = "UILabel"; text = "I like to paint. I really liked drawing when I first learned the power of modern technologies and the power of modern applications. Drawing on a tablet is very pleasant and convenient. And most importantly, even a beginner gets amazing drawings."; ObjectID = "67H-Vg-Eqs"; */
+"67H-Vg-Eqs.text" = "Мне нравится рисовать. Мне очень понравилось рисовать, когда я впервые узнал о мощи современных технологий и возможностях современных приложений. Рисовать на планшете очень приятно и удобно. И самое главное, даже новичок получает удивительные рисунки.";
+
+/* Class = "UINavigationItem"; title = "I am"; ObjectID = "7Xj-kX-y2x"; */
+"7Xj-kX-y2x.title" = "Это Я";
+
+/* Class = "UITabBarItem"; title = "Hobbie"; ObjectID = "Ev4-FZ-jUd"; */
+"Ev4-FZ-jUd.title" = "Хобби";
+
+/* Class = "UITabBarItem"; title = "Work"; ObjectID = "KyO-JP-DML"; */
+"KyO-JP-DML.title" = "Работа";
+
+/* Class = "UILabel"; text = "I live in the city of Belgorod, and I work at this time in the north of our country. in Yakutia. I work as a drilling rig driver. This job is not easy. But they also pay good money for it. I am currently studying mobile app development for iOS. I really like to develop applications and I want to change my job to application development. To do this, I put a lot of effort into studying this area. I developed this app myself."; ObjectID = "RS2-Tw-saF"; */
+"RS2-Tw-saF.text" = "Я живу в городе Белгороде, а работаю в это время на севере нашей страны. в Якутии. Я работаю водителем буровой установки. Эта работа не из легких. Но они также платят за это хорошие деньги. В настоящее время я изучаю разработку мобильных приложений для iOS. Мне очень нравится разрабатывать приложения, и я хочу сменить свою работу на разработку приложений. Для этого я приложил много усилий к изучению этой области. Я сам разработал это приложение.";
+
+/* Class = "UILabel"; text = "About the work"; ObjectID = "TNe-QF-QZU"; */
+"TNe-QF-QZU.text" = "О работе";
+
+/* Class = "UILabel"; text = "My wife Natalia and our beautiful children Eva and Daniel. we also have a dog named Baton. My wife is a professional photographer. Her work is very exciting. my children are in school. Eva really likes English, and Daniel likes drawing lessons on glass. Our Loaf is very fond of lying in the mud. He's still a Puppy."; ObjectID = "XPl-Nr-ROc"; */
+"XPl-Nr-ROc.text" = "Моя жена Наталья и наши прекрасные дети Ева и Даниил. у нас также есть собака по кличке Батон. Моя жена - профессиональный фотограф. Ее работа очень увлекательна. мои дети учатся в школе. Еве очень нравится английский, а Дэниилу нравятся уроки рисования на стекле. Наш Батон очень любит валяться в грязи. Он все еще щенок.";
+
+/* Class = "UITabBarItem"; title = "Femily"; ObjectID = "hah-Uz-I5N"; */
+"hah-Uz-I5N.title" = "Семья";
+
+/* Class = "UILabel"; text = "This is my family"; ObjectID = "lwq-NE-cau"; */
+"lwq-NE-cau.text" = "Это моя семья";
+
+/* Class = "UILabel"; text = "Hi!"; ObjectID = "mdo-Ri-4ZN"; */
+"mdo-Ri-4ZN.text" = "Привет!";
+
+/* Class = "UILabel"; text = "I love drawing!"; ObjectID = "nE6-21-4yh"; */
+"nE6-21-4yh.text" = "Я люблю рисовать!";
+
+/* Class = "UILabel"; text = "I'm Ivan Tarasenko"; ObjectID = "rOf-ic-sN7"; */
+"rOf-ic-sN7.text" = "Я Иван Тарасенко";

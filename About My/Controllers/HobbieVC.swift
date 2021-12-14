@@ -16,6 +16,7 @@ class HobbieVC: UIViewController {
     
     private let startPointGradient = CGPoint(x: 0.4, y: -0.9)
     private let endPointGradient = CGPoint(x: 0.1, y: 1.0)
+    
     private let colorOne = UIColor(red: 133/255,
                                    green: 235/255,
                                    blue: 239/255,
@@ -29,18 +30,17 @@ class HobbieVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         contentView.gradientBackground(color1: colorOne,
-                                    color2: colorTwo,
-                                    startPoint: startPointGradient,
-                                    endPoint: endPointGradient,
-                                    locations: [0.3, 1.0])
+                                       color2: colorTwo,
+                                       startPoint: startPointGradient,
+                                       endPoint: endPointGradient,
+                                       locations: [0.1, 1.0],
+                                       inView: contentView
+        )
         
         setingCornerRadius(radius: 30, image: imageOne)
         setingCornerRadius(radius: 30, image: imageTwo)
         setingCornerRadius(radius: 30, image: imageThee)
-        
-
     }
     
     override func viewWillAppear(_ animated: Bool) {

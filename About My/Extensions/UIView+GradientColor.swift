@@ -13,18 +13,16 @@ extension UIView {
                             color2: UIColor,
                             startPoint: CGPoint,
                             endPoint: CGPoint,
-                            locations: [NSNumber]
+                            locations: [NSNumber],
+                            inView: UIView
     ) {
-
         let layerGradient = CAGradientLayer()
 
-        layerGradient.colors = [color1.cgColor,
-                                color2.cgColor]
-        layerGradient.frame = bounds
+        layerGradient.colors = [color1.cgColor, color2.cgColor]
+        layerGradient.frame = inView.bounds
         layerGradient.startPoint = startPoint
         layerGradient.endPoint = endPoint
         layerGradient.locations = locations
-
         layer.insertSublayer(layerGradient, at: 0)
     }
 }

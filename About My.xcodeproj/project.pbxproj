@@ -11,11 +11,10 @@
 		1A27405126552E8800A7E99F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27405026552E8800A7E99F /* SceneDelegate.swift */; };
 		1A27405826552E8900A7E99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A27405726552E8900A7E99F /* Assets.xcassets */; };
 		1A27405B26552E8900A7E99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A27405926552E8900A7E99F /* LaunchScreen.storyboard */; };
-		1A2740652655476F00A7E99F /* WorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2740642655476F00A7E99F /* WorkVC.swift */; };
-		1A2740682655479B00A7E99F /* HobbieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2740672655479B00A7E99F /* HobbieVC.swift */; };
+		1A2740652655476F00A7E99F /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2740642655476F00A7E99F /* WorkViewController.swift */; };
+		1A2740682655479B00A7E99F /* HobbieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2740672655479B00A7E99F /* HobbieViewController.swift */; };
 		1A27406B265547D300A7E99F /* FamilyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27406A265547D300A7E99F /* FamilyVC.swift */; };
-		1A6926282655F829003B7328 /* UIView+GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6926272655F829003B7328 /* UIView+GradientColor.swift */; };
-		1A69262C2655F88D003B7328 /* MyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A69262B2655F88D003B7328 /* MyVC.swift */; };
+		1A69262C2655F88D003B7328 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A69262B2655F88D003B7328 /* MyViewController.swift */; };
 		1A9A63D7275C524000C32557 /* UIViewController+BorderRadiusImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A63D6275C524000C32557 /* UIViewController+BorderRadiusImage.swift */; };
 		1A9A63DA275C579A00C32557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A63D8275C579A00C32557 /* Main.storyboard */; };
 		1ABC1F4027FEF76300E88535 /* Family.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABC1F3E27FEF76300E88535 /* Family.storyboard */; };
@@ -30,12 +29,11 @@
 		1A27405726552E8900A7E99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A27405A26552E8900A7E99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A27405C26552E8900A7E99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A2740642655476F00A7E99F /* WorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkVC.swift; sourceTree = "<group>"; };
-		1A2740672655479B00A7E99F /* HobbieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbieVC.swift; sourceTree = "<group>"; };
+		1A2740642655476F00A7E99F /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		1A2740672655479B00A7E99F /* HobbieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbieViewController.swift; sourceTree = "<group>"; };
 		1A27406A265547D300A7E99F /* FamilyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyVC.swift; sourceTree = "<group>"; };
 		1A55385F2760CDDB0056D3A5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
-		1A6926272655F829003B7328 /* UIView+GradientColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+GradientColor.swift"; sourceTree = "<group>"; };
-		1A69262B2655F88D003B7328 /* MyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVC.swift; sourceTree = "<group>"; };
+		1A69262B2655F88D003B7328 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		1A9A63D6275C524000C32557 /* UIViewController+BorderRadiusImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+BorderRadiusImage.swift"; sourceTree = "<group>"; };
 		1A9A63D9275C579A00C32557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1ABC1F3F27FEF76300E88535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "About My/View/Base.lproj/Family.storyboard"; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 		1A9A63D5275C514900C32557 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1A6926272655F829003B7328 /* UIView+GradientColor.swift */,
 				1A9A63D6275C524000C32557 /* UIViewController+BorderRadiusImage.swift */,
 			);
 			path = Extensions;
@@ -108,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				1A9A63D8275C579A00C32557 /* Main.storyboard */,
-				1A69262B2655F88D003B7328 /* MyVC.swift */,
+				1A69262B2655F88D003B7328 /* MyViewController.swift */,
 			);
 			path = MainScreen;
 			sourceTree = "<group>";
@@ -126,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				1ABC1F4127FEF83900E88535 /* Work.storyboard */,
-				1A2740642655476F00A7E99F /* WorkVC.swift */,
+				1A2740642655476F00A7E99F /* WorkViewController.swift */,
 			);
 			path = WorkScreen;
 			sourceTree = "<group>";
@@ -135,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				1ABC1F4327FEF85D00E88535 /* Hobbie.storyboard */,
-				1A2740672655479B00A7E99F /* HobbieVC.swift */,
+				1A2740672655479B00A7E99F /* HobbieViewController.swift */,
 			);
 			path = HobbieScreen;
 			sourceTree = "<group>";
@@ -214,10 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2740682655479B00A7E99F /* HobbieVC.swift in Sources */,
-				1A2740652655476F00A7E99F /* WorkVC.swift in Sources */,
-				1A6926282655F829003B7328 /* UIView+GradientColor.swift in Sources */,
-				1A69262C2655F88D003B7328 /* MyVC.swift in Sources */,
+				1A2740682655479B00A7E99F /* HobbieViewController.swift in Sources */,
+				1A2740652655476F00A7E99F /* WorkViewController.swift in Sources */,
+				1A69262C2655F88D003B7328 /* MyViewController.swift in Sources */,
 				1A9A63D7275C524000C32557 /* UIViewController+BorderRadiusImage.swift in Sources */,
 				1A27404F26552E8800A7E99F /* AppDelegate.swift in Sources */,
 				1A27405126552E8800A7E99F /* SceneDelegate.swift in Sources */,

@@ -55,7 +55,7 @@
 		1A27404226552E8800A7E99F = {
 			isa = PBXGroup;
 			children = (
-				1A27404D26552E8800A7E99F /* About My */,
+				1A27404D26552E8800A7E99F /* AboutMy */,
 				1A27404C26552E8800A7E99F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +68,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A27404D26552E8800A7E99F /* About My */ = {
+		1A27404D26552E8800A7E99F /* AboutMy */ = {
 			isa = PBXGroup;
 			children = (
 				1ABC1F3A27FEF58000E88535 /* MainScreen */,
@@ -78,7 +78,7 @@
 				1A9A63D5275C514900C32557 /* Extensions */,
 				1A9A63D1275C506600C32557 /* Support */,
 			);
-			path = "About My";
+			path = AboutMy;
 			sourceTree = "<group>";
 		};
 		1A9A63D1275C506600C32557 /* Support */ = {

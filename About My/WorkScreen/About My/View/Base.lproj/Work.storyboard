@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fqr-xZ-7ob">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Work-->
+        <scene sceneID="BdX-qS-O6F">
+            <objects>
+                <viewController id="Fqr-xZ-7ob" customClass="WorkViewController" customModule="About_My" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ef5-g9-g2A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="999"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hiP-kc-3pN">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1004"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqg-ku-OPB">
+                                        <rect key="frame" x="0.0" y="-11" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Work2" translatesAutoresizingMaskIntoConstraints="NO" id="922-hN-8h9">
+                                                <rect key="frame" x="14" y="25" width="240" height="161"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="161" id="7nd-gY-2Ar"/>
+                                                    <constraint firstAttribute="width" constant="240" id="BIg-G5-0Qm"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About the work" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="TNe-QF-QZU">
+                                                <rect key="frame" x="50" y="403" width="314" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="Kzl-Hd-cjJ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Work" translatesAutoresizingMaskIntoConstraints="NO" id="0uu-KC-RJi">
+                                                <rect key="frame" x="147" y="197" width="240" height="161"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="0lz-yS-8wv">
+                                                <rect key="frame" x="57" y="492" width="300" height="418"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="418" id="9WJ-WR-5qO"/>
+                                                </constraints>
+                                                <string key="text">I work as a drilling rig driver. I have been working in this profession for a long time, more than fifteen years. It's an interesting job, but I don't want to work as a driller anymore. Now I really like to develop mobile apps for iOS. I like it, because here you need to constantly solve new problems and create something beautiful and interesting.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="922-hN-8h9" firstAttribute="leading" secondItem="wqg-ku-OPB" secondAttribute="leading" constant="14" id="3Jz-fy-iTw"/>
+                                            <constraint firstItem="TNe-QF-QZU" firstAttribute="centerX" secondItem="wqg-ku-OPB" secondAttribute="centerX" id="HtQ-hZ-Qzc"/>
+                                            <constraint firstItem="0uu-KC-RJi" firstAttribute="height" secondItem="922-hN-8h9" secondAttribute="height" id="J1d-xy-h5r"/>
+                                            <constraint firstItem="0uu-KC-RJi" firstAttribute="width" secondItem="922-hN-8h9" secondAttribute="width" id="PEf-kG-9XW"/>
+                                            <constraint firstItem="922-hN-8h9" firstAttribute="top" secondItem="wqg-ku-OPB" secondAttribute="top" constant="25" id="Q6f-7Q-Fab"/>
+                                            <constraint firstItem="0lz-yS-8wv" firstAttribute="leading" secondItem="wqg-ku-OPB" secondAttribute="leading" constant="57" id="SpR-f5-J9b"/>
+                                            <constraint firstItem="TNe-QF-QZU" firstAttribute="top" secondItem="0uu-KC-RJi" secondAttribute="bottom" constant="45" id="W2z-9x-jzC"/>
+                                            <constraint firstItem="0lz-yS-8wv" firstAttribute="top" secondItem="TNe-QF-QZU" secondAttribute="bottom" constant="41" id="WSS-85-l4S"/>
+                                            <constraint firstItem="TNe-QF-QZU" firstAttribute="width" secondItem="0lz-yS-8wv" secondAttribute="width" multiplier="1.04667" id="dX0-nG-qG5"/>
+                                            <constraint firstAttribute="trailing" secondItem="0uu-KC-RJi" secondAttribute="trailing" constant="27" id="dev-ab-FKl"/>
+                                            <constraint firstAttribute="bottom" secondItem="0lz-yS-8wv" secondAttribute="bottom" constant="90" id="g0H-DL-5Ir"/>
+                                            <constraint firstItem="0uu-KC-RJi" firstAttribute="top" secondItem="922-hN-8h9" secondAttribute="bottom" constant="11" id="mQm-Au-DGc"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0lz-yS-8wv" secondAttribute="trailing" constant="20" symbolic="YES" id="qDs-vD-OZf"/>
+                                            <constraint firstItem="TNe-QF-QZU" firstAttribute="leading" secondItem="wqg-ku-OPB" secondAttribute="leading" constant="50" id="smJ-P3-KCa"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="wqg-ku-OPB" firstAttribute="height" secondItem="hiP-kc-3pN" secondAttribute="height" priority="501" constant="-4" id="HSx-FX-2Zv"/>
+                                    <constraint firstItem="wqg-ku-OPB" firstAttribute="leading" secondItem="hiP-kc-3pN" secondAttribute="leading" id="MGf-6v-BAk"/>
+                                    <constraint firstItem="wqg-ku-OPB" firstAttribute="centerX" secondItem="hiP-kc-3pN" secondAttribute="centerX" id="SLH-3k-agh"/>
+                                    <constraint firstItem="wqg-ku-OPB" firstAttribute="top" secondItem="hiP-kc-3pN" secondAttribute="top" constant="-11" id="bba-gY-3Lc"/>
+                                    <constraint firstAttribute="trailing" secondItem="wqg-ku-OPB" secondAttribute="trailing" id="zQr-u2-Rg2"/>
+                                    <constraint firstAttribute="bottom" secondItem="wqg-ku-OPB" secondAttribute="bottom" constant="15" id="zyC-J0-rpv"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xYu-MJ-fng"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xYu-MJ-fng" firstAttribute="trailing" secondItem="hiP-kc-3pN" secondAttribute="trailing" id="Dcz-mw-Cpo"/>
+                            <constraint firstItem="hiP-kc-3pN" firstAttribute="top" secondItem="xYu-MJ-fng" secondAttribute="top" id="GVC-NU-AB3"/>
+                            <constraint firstItem="hiP-kc-3pN" firstAttribute="leading" secondItem="xYu-MJ-fng" secondAttribute="leading" id="Ioq-u3-zK9"/>
+                            <constraint firstItem="xYu-MJ-fng" firstAttribute="bottom" secondItem="hiP-kc-3pN" secondAttribute="bottom" constant="-83" id="M76-Iz-hvf"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Work" image="bag" catalog="system" selectedImage="bag" id="KyO-JP-DML"/>
+                    <navigationItem key="navigationItem" id="BSM-p4-XHa"/>
+                    <size key="freeformSize" width="414" height="999"/>
+                    <connections>
+                        <outlet property="contentView" destination="wqg-ku-OPB" id="7Tc-p3-CjG"/>
+                        <outlet property="imageOne" destination="922-hN-8h9" id="9Cx-Fp-jUq"/>
+                        <outlet property="imageTwo" destination="0uu-KC-RJi" id="jrA-Hy-gRu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZ7-hx-aro" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3500.0000000000005" y="-174.10714285714286"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Work" width="1276" height="1332"/>
+        <image name="Work2" width="2448" height="3264"/>
+        <image name="bag" catalog="system" width="128" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

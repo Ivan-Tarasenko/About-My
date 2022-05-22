@@ -1,5 +1,5 @@
 //
-//  FamilyVC.swift
+//  FamilyViewController.swift
 //  My summary
 //
 //  Created by Иван Тарасенко on 19.05.2021.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FamilyVC: UIViewController {
+class FamilyViewController: UIViewController {
     
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var imageOne: UIImageView!

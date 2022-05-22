@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wen-8p-Czs">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Femily-->
+        <scene sceneID="R4R-Rx-3cy">
+            <objects>
+                <viewController id="wen-8p-Czs" customClass="FamilyViewController" customModule="About_My" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y5i-P7-711">
+                        <rect key="frame" x="0.0" y="0.0" width="413" height="1086"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mzO-Ye-ypj">
+                                <rect key="frame" x="0.0" y="44" width="413" height="1091"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mck-E3-h62">
+                                        <rect key="frame" x="0.0" y="0.0" width="413" height="1087"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wife" translatesAutoresizingMaskIntoConstraints="NO" id="HRg-Fk-qFh" userLabel="wifer">
+                                                <rect key="frame" x="40" y="66" width="165" height="165"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="165" id="OKM-a1-ZVh"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dog" translatesAutoresizingMaskIntoConstraints="NO" id="z6e-ea-rtt" userLabel="dog">
+                                                <rect key="frame" x="208" y="66" width="165" height="165"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="165" id="t8Y-aX-Bkl"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chidren" translatesAutoresizingMaskIntoConstraints="NO" id="rqE-5f-YvZ" userLabel="children">
+                                                <rect key="frame" x="40" y="234" width="333" height="165"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="165" id="7SJ-gR-4HB"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="This is my family" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="lwq-NE-cau">
+                                                <rect key="frame" x="66.666666666666686" y="463" width="280" height="49"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="752" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="XPl-Nr-ROc">
+                                                <rect key="frame" x="56" y="565" width="301" height="418"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="418" id="Nz9-6d-xPK"/>
+                                                </constraints>
+                                                <string key="text">My wife Natalia and our beautiful children Eva and Daniel. we also have a dog named Baton. My wife is a professional photographer. Her work is very exciting. my children are in school. Eva really likes English, and Daniel likes drawing lessons on glass. Our Loaf is very fond of lying in the mud. He's still a Puppy.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="lwq-NE-cau" firstAttribute="centerX" secondItem="Mck-E3-h62" secondAttribute="centerX" id="1O7-tc-uAk"/>
+                                            <constraint firstItem="HRg-Fk-qFh" firstAttribute="top" secondItem="Mck-E3-h62" secondAttribute="top" constant="66" id="2p6-aV-2t4"/>
+                                            <constraint firstItem="HRg-Fk-qFh" firstAttribute="leading" secondItem="Mck-E3-h62" secondAttribute="leading" constant="40" id="AFA-TJ-iaS"/>
+                                            <constraint firstItem="XPl-Nr-ROc" firstAttribute="leading" secondItem="Mck-E3-h62" secondAttribute="leading" constant="56" id="Byf-1m-emv"/>
+                                            <constraint firstAttribute="trailing" secondItem="z6e-ea-rtt" secondAttribute="trailing" constant="40" id="CLH-RW-kYD"/>
+                                            <constraint firstItem="z6e-ea-rtt" firstAttribute="width" secondItem="HRg-Fk-qFh" secondAttribute="width" id="D1N-02-F6A"/>
+                                            <constraint firstItem="z6e-ea-rtt" firstAttribute="top" secondItem="Mck-E3-h62" secondAttribute="top" constant="66" id="KBK-z0-OwI"/>
+                                            <constraint firstItem="XPl-Nr-ROc" firstAttribute="centerX" secondItem="Mck-E3-h62" secondAttribute="centerX" id="L0P-5k-PRU"/>
+                                            <constraint firstItem="lwq-NE-cau" firstAttribute="top" secondItem="rqE-5f-YvZ" secondAttribute="bottom" constant="64" id="MWm-pr-pOI"/>
+                                            <constraint firstItem="rqE-5f-YvZ" firstAttribute="top" secondItem="HRg-Fk-qFh" secondAttribute="bottom" constant="3" id="P7q-ZH-f7r"/>
+                                            <constraint firstItem="z6e-ea-rtt" firstAttribute="leading" secondItem="HRg-Fk-qFh" secondAttribute="trailing" constant="3" id="aJ3-CN-new"/>
+                                            <constraint firstAttribute="trailing" secondItem="rqE-5f-YvZ" secondAttribute="trailing" constant="40" id="aUG-m7-gFY"/>
+                                            <constraint firstItem="lwq-NE-cau" firstAttribute="leading" secondItem="Mck-E3-h62" secondAttribute="leading" constant="66.5" id="c5X-N8-UQp"/>
+                                            <constraint firstAttribute="bottom" secondItem="XPl-Nr-ROc" secondAttribute="bottom" constant="104" id="vLA-Cl-s7J"/>
+                                            <constraint firstItem="XPl-Nr-ROc" firstAttribute="top" secondItem="lwq-NE-cau" secondAttribute="bottom" constant="53" id="vSH-1v-EuE"/>
+                                            <constraint firstItem="rqE-5f-YvZ" firstAttribute="leading" secondItem="Mck-E3-h62" secondAttribute="leading" constant="40" id="z61-C8-Fzn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Mck-E3-h62" firstAttribute="leading" secondItem="mzO-Ye-ypj" secondAttribute="leading" id="GOE-g1-e8h"/>
+                                    <constraint firstItem="Mck-E3-h62" firstAttribute="top" secondItem="mzO-Ye-ypj" secondAttribute="top" id="KxJ-eO-4Nm"/>
+                                    <constraint firstItem="Mck-E3-h62" firstAttribute="centerX" secondItem="mzO-Ye-ypj" secondAttribute="centerX" id="XW2-Rp-S3K"/>
+                                    <constraint firstItem="Mck-E3-h62" firstAttribute="height" secondItem="mzO-Ye-ypj" secondAttribute="height" multiplier="0.992225" priority="501" constant="4.368874999999889" id="j5w-hv-69Y"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mck-E3-h62" secondAttribute="bottom" constant="5" id="jfp-X3-ahk"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mck-E3-h62" secondAttribute="trailing" id="wpz-qD-RWQ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gNV-wW-JaA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mzO-Ye-ypj" firstAttribute="top" secondItem="gNV-wW-JaA" secondAttribute="top" id="EJo-FZ-Dtq"/>
+                            <constraint firstItem="mzO-Ye-ypj" firstAttribute="leading" secondItem="gNV-wW-JaA" secondAttribute="leading" id="F8T-Ib-mdt"/>
+                            <constraint firstItem="gNV-wW-JaA" firstAttribute="bottom" secondItem="mzO-Ye-ypj" secondAttribute="bottom" constant="-83" id="HoK-Mw-lDa"/>
+                            <constraint firstItem="gNV-wW-JaA" firstAttribute="trailing" secondItem="mzO-Ye-ypj" secondAttribute="trailing" id="xwN-GL-oZK"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Femily" image="person.3" catalog="system" selectedImage="person.3" id="hah-Uz-I5N"/>
+                    <navigationItem key="navigationItem" id="Xo1-E0-AgR"/>
+                    <size key="freeformSize" width="413" height="1086"/>
+                    <connections>
+                        <outlet property="contentView" destination="Mck-E3-h62" id="iHB-NO-X7m"/>
+                        <outlet property="imageOne" destination="HRg-Fk-qFh" id="Hpt-rC-rr0"/>
+                        <outlet property="imageThree" destination="rqE-5f-YvZ" id="O7N-gs-Cq0"/>
+                        <outlet property="imageTwo" destination="z6e-ea-rtt" id="eUe-Jd-odA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VEW-WE-3L9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2523.913043478261" y="447.99107142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Chidren" width="6016" height="4016"/>
+        <image name="Dog" width="1200" height="1600"/>
+        <image name="Wife" width="724" height="1086"/>
+        <image name="person.3" catalog="system" width="128" height="62"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

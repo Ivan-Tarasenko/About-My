@@ -13,7 +13,7 @@
 		1A27405B26552E8900A7E99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A27405926552E8900A7E99F /* LaunchScreen.storyboard */; };
 		1A2740652655476F00A7E99F /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2740642655476F00A7E99F /* WorkViewController.swift */; };
 		1A2740682655479B00A7E99F /* HobbieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2740672655479B00A7E99F /* HobbieViewController.swift */; };
-		1A27406B265547D300A7E99F /* FamilyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27406A265547D300A7E99F /* FamilyVC.swift */; };
+		1A27406B265547D300A7E99F /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27406A265547D300A7E99F /* FamilyViewController.swift */; };
 		1A69262C2655F88D003B7328 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A69262B2655F88D003B7328 /* MyViewController.swift */; };
 		1A9A63D7275C524000C32557 /* UIViewController+BorderRadiusImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A63D6275C524000C32557 /* UIViewController+BorderRadiusImage.swift */; };
 		1A9A63DA275C579A00C32557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A63D8275C579A00C32557 /* Main.storyboard */; };
@@ -31,7 +31,7 @@
 		1A27405C26552E8900A7E99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A2740642655476F00A7E99F /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
 		1A2740672655479B00A7E99F /* HobbieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbieViewController.swift; sourceTree = "<group>"; };
-		1A27406A265547D300A7E99F /* FamilyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyVC.swift; sourceTree = "<group>"; };
+		1A27406A265547D300A7E99F /* FamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
 		1A55385F2760CDDB0056D3A5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		1A69262B2655F88D003B7328 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		1A9A63D6275C524000C32557 /* UIViewController+BorderRadiusImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+BorderRadiusImage.swift"; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				1ABC1F3E27FEF76300E88535 /* Family.storyboard */,
-				1A27406A265547D300A7E99F /* FamilyVC.swift */,
+				1A27406A265547D300A7E99F /* FamilyViewController.swift */,
 			);
 			path = FamilyScreen;
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 				1A9A63D7275C524000C32557 /* UIViewController+BorderRadiusImage.swift in Sources */,
 				1A27404F26552E8800A7E99F /* AppDelegate.swift in Sources */,
 				1A27405126552E8800A7E99F /* SceneDelegate.swift in Sources */,
-				1A27406B265547D300A7E99F /* FamilyVC.swift in Sources */,
+				1A27406B265547D300A7E99F /* FamilyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oM8-aD-LGz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hobbie-->
+        <scene sceneID="gup-Cs-278">
+            <objects>
+                <viewController id="oM8-aD-LGz" customClass="HobbieViewController" customModule="About_My" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kJ2-MV-4fd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="999"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDK-tq-wU4">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1004"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1G1-ww-smZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dgagon" translatesAutoresizingMaskIntoConstraints="NO" id="K0d-NN-j9C">
+                                                <rect key="frame" x="132" y="194" width="150" height="150"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sun-and-cloud" translatesAutoresizingMaskIntoConstraints="NO" id="qvK-TJ-uQZ">
+                                                <rect key="frame" x="22" y="22" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="6qH-Cm-XOO"/>
+                                                    <constraint firstAttribute="height" constant="150" id="aBG-Jw-niw"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="67H-Vg-Eqs">
+                                                <rect key="frame" x="50" y="504" width="314" height="418"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="418" id="nwS-hY-1YG"/>
+                                                </constraints>
+                                                <string key="text">I like to paint. I really liked drawing when I first learned the power of modern technologies and the power of modern applications. Drawing on a tablet is very pleasant and convenient. And most importantly, even a beginner gets amazing drawings.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rik" translatesAutoresizingMaskIntoConstraints="NO" id="dNe-Cu-Jta">
+                                                <rect key="frame" x="244" y="22" width="150" height="150"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I love drawing!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="nE6-21-4yh">
+                                                <rect key="frame" x="50" y="398" width="314" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="GDY-kL-Pm4"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="K0d-NN-j9C" firstAttribute="centerX" secondItem="1G1-ww-smZ" secondAttribute="centerX" id="1f0-ck-KJq"/>
+                                            <constraint firstItem="qvK-TJ-uQZ" firstAttribute="height" secondItem="dNe-Cu-Jta" secondAttribute="height" id="C1M-oB-PmL"/>
+                                            <constraint firstItem="67H-Vg-Eqs" firstAttribute="leading" secondItem="1G1-ww-smZ" secondAttribute="leading" constant="50" id="F5v-QW-YLp"/>
+                                            <constraint firstItem="67H-Vg-Eqs" firstAttribute="top" secondItem="nE6-21-4yh" secondAttribute="bottom" constant="58" id="JIV-iG-pAX"/>
+                                            <constraint firstItem="qvK-TJ-uQZ" firstAttribute="leading" secondItem="1G1-ww-smZ" secondAttribute="leading" constant="22" id="LRa-UY-C9B"/>
+                                            <constraint firstItem="qvK-TJ-uQZ" firstAttribute="width" secondItem="dNe-Cu-Jta" secondAttribute="width" id="O9V-al-PQj"/>
+                                            <constraint firstItem="dNe-Cu-Jta" firstAttribute="top" secondItem="1G1-ww-smZ" secondAttribute="top" constant="22" id="Osc-QY-9Ad"/>
+                                            <constraint firstItem="nE6-21-4yh" firstAttribute="leading" secondItem="1G1-ww-smZ" secondAttribute="leading" constant="50" id="PpC-4w-01q"/>
+                                            <constraint firstItem="qvK-TJ-uQZ" firstAttribute="width" secondItem="K0d-NN-j9C" secondAttribute="width" id="YZq-7p-3Jd"/>
+                                            <constraint firstAttribute="bottom" secondItem="67H-Vg-Eqs" secondAttribute="bottom" constant="78" id="Ylo-Ib-AZV"/>
+                                            <constraint firstItem="nE6-21-4yh" firstAttribute="centerX" secondItem="1G1-ww-smZ" secondAttribute="centerX" id="caJ-cx-3F2"/>
+                                            <constraint firstItem="qvK-TJ-uQZ" firstAttribute="height" secondItem="K0d-NN-j9C" secondAttribute="height" id="ddA-TQ-10S"/>
+                                            <constraint firstItem="67H-Vg-Eqs" firstAttribute="centerX" secondItem="1G1-ww-smZ" secondAttribute="centerX" id="eT6-89-Obf"/>
+                                            <constraint firstAttribute="trailing" secondItem="dNe-Cu-Jta" secondAttribute="trailing" constant="20" id="hJ6-8Q-sfK"/>
+                                            <constraint firstItem="qvK-TJ-uQZ" firstAttribute="top" secondItem="1G1-ww-smZ" secondAttribute="top" constant="22" id="nIY-XZ-Gmv"/>
+                                            <constraint firstItem="nE6-21-4yh" firstAttribute="top" secondItem="K0d-NN-j9C" secondAttribute="bottom" constant="54" id="rP9-4R-c7t"/>
+                                            <constraint firstItem="K0d-NN-j9C" firstAttribute="top" secondItem="qvK-TJ-uQZ" secondAttribute="bottom" constant="22" id="xLf-MK-9FX"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1G1-ww-smZ" secondAttribute="trailing" id="AD9-Fe-gzq"/>
+                                    <constraint firstItem="1G1-ww-smZ" firstAttribute="height" secondItem="fDK-tq-wU4" secondAttribute="height" multiplier="0.992225" priority="501" constant="3.8061000000000149" id="D2u-Bh-Bu2"/>
+                                    <constraint firstItem="1G1-ww-smZ" firstAttribute="centerX" secondItem="fDK-tq-wU4" secondAttribute="centerX" id="Jio-OQ-HjV"/>
+                                    <constraint firstItem="1G1-ww-smZ" firstAttribute="top" secondItem="fDK-tq-wU4" secondAttribute="top" id="b89-HE-6ar"/>
+                                    <constraint firstItem="1G1-ww-smZ" firstAttribute="leading" secondItem="fDK-tq-wU4" secondAttribute="leading" id="kJX-Vz-sDk"/>
+                                    <constraint firstAttribute="bottom" secondItem="1G1-ww-smZ" secondAttribute="bottom" constant="4" id="vHI-gm-TKU"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Fmg-v7-zf0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fmg-v7-zf0" firstAttribute="bottom" secondItem="fDK-tq-wU4" secondAttribute="bottom" constant="-83" id="ACB-x0-IPk"/>
+                            <constraint firstItem="Fmg-v7-zf0" firstAttribute="trailing" secondItem="fDK-tq-wU4" secondAttribute="trailing" id="OW4-2K-V2c"/>
+                            <constraint firstItem="fDK-tq-wU4" firstAttribute="top" secondItem="Fmg-v7-zf0" secondAttribute="top" id="XR8-yG-Atv"/>
+                            <constraint firstItem="fDK-tq-wU4" firstAttribute="leading" secondItem="Fmg-v7-zf0" secondAttribute="leading" id="hFS-hq-ogA"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbie" image="pencil" catalog="system" selectedImage="pencil" id="Ev4-FZ-jUd"/>
+                    <size key="freeformSize" width="414" height="999"/>
+                    <connections>
+                        <outlet property="contentView" destination="1G1-ww-smZ" id="1s6-kw-RqS"/>
+                        <outlet property="imageOne" destination="K0d-NN-j9C" id="czB-c5-o6L"/>
+                        <outlet property="imageThee" destination="qvK-TJ-uQZ" id="4nb-1T-8rg"/>
+                        <outlet property="imageTwo" destination="dNe-Cu-Jta" id="7jf-mu-Db5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gug-uY-dmk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4666.666666666667" y="447.99107142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dgagon" width="1000" height="1000"/>
+        <image name="Rik" width="1000" height="1000"/>
+        <image name="Sun-and-cloud" width="1000" height="1000"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
